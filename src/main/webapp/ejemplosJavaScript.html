@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="misEstilos.css" rel="stylesheet" type="text/css"/>
+        <style>
+            table{
+                /* centra la tabla*/
+                margin: auto;
+            }
+            td {
+                padding:5px;
+            }
+        </style>
+        <script defer src="scriptEjemplosJavascript.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header class="col-12 col-s-12">
+            <h1>
+                <span>Hotel Playa Blanca</span><span id="loginLogoutRegistrese" ><a  href="">Ingresar</a><a  href="registrese.html">Regístrese</a></span>
+            </h1>
+        </header>
+        <div class="row">
+            <nav class="col-3 col-s-2">
+                <ul>
+                    <a href="index.html"> <li>Inicio</li></a>
+                    <a  href=""><li>Maestros</li></a>
+                    <a href=""><li>Actividades</li></a>
+                    <a  href=""><li>Reservaciones</li></a>
+                    <a href="ejemplosJavaScript.html"><li>Ejemplos Javascript</li></a> 
+                </ul>
+            </nav>  
+            <main class="col-6 col-s-10">       
+                <h2 style= "text-align: center">Combobox en Cascada</h2>
+                <label for="country" >Country</label>
+
+                <select title="Please select the country that the customer will primarily be served from" id="country" name="country">
+                    <option></option>
+                    <option>Germany</option>
+                    <option>Spain</option>
+                    <option>Hungary</option>
+                    <option>USA</option>
+                    <option>Mexico</option>
+                    <option>South Africa</option>
+                    <option>China</option>
+                    <option>Russia</option>
+                </select>
+
+                <br />
+                <br />
+                <label for="city" >City</label>
+                <div  title="Please select the city that the customer is primarily to be served from.">
+                    <select id="city" name="city" ></select>
+                </div>
+
+                <h2 style= "text-align: center">Calculadora Sencilla </h2>
+                <div>
+                    <table>
+                        <tr>
+                            <td>Número 1</td>
+                            <td><input type="text" id="num1"/></td>
+                        </tr>
+                        <tr>
+                            <td>Número 2</td>
+                            <td><input type="text" id="num2"/></td>
+                        </tr>
+                        <tr>
+                            <td>Resultado</td>
+                            <td><input type="text" id="resultado"/></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <button id="btnSuma">Suma</button>
+                                <button onclick="restar()" id="btnResta">Resta</button>
+                                <button onclick="multiplicar()" id="btnMultiplicacion">Multiplicacion</button>
+                                <button onclick="dividir()" id="btnDivision">División</button>
+                                <button onclick="limpiar()" id="btnLimpia">Limpiar campos</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <p>Todos los derechos reservados &copy; 2020</p>
+        </footer>
+    </body>
+</html>
