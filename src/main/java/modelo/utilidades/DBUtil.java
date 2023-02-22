@@ -16,8 +16,8 @@ public class DBUtil {
         System.out.println("Driver de ORACLE cargado");
 
         // Credenciales para conectarse con la base de datos
-        String nombreUsuario = "USUARIO6";
-        String password = "USUARIO6";
+        String nombreUsuario = "USUARIO5";
+        String password = "USUARIO5";
         
         // Este es el string de conexion para conectarse con el Oracle express que esta almacenado
         // en localhost; es decir, en esta máquina
